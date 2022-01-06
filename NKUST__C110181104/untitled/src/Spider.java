@@ -1,3 +1,5 @@
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 public class Spider {
     public static void main(String[] args) {
         System.out.println("粉絲術前十vtuber排行榜");
