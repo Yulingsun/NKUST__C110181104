@@ -2,7 +2,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 public class Spider {
     public static void main(String[] args) {
-        System.out.println("粉絲術前十vtuber排行榜");
+        System.out.println("粉絲數前十vtuber排行榜");
         try {
         Document view = Jsoup.connect("https://virtual-youtuber.userlocal.jp/document/ranking").get();//爬蟲網址
         System.out.println(view.title());//輸出網頁標題
