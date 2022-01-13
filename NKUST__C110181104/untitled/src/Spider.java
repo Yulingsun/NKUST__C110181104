@@ -1,7 +1,7 @@
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 
-public class finalwork {
+public class spider {
     public static void main(String[] args) {
         System.out.println("粉絲數前十vtuber排行榜");
         System.out.println("https://virtual-youtuber.userlocal.jp/document/ranking");
